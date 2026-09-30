@@ -44,7 +44,7 @@ Verify the expected `.ipynb` file exists in `code\` before reporting the task as
 
 - If necessary, please create settings.json within the Project8 folder so that claude can create/edit files and perform common filesystem operations such as creating directories without repeatedly asking you. Please add steps necessary to perform task in the CLAUDE.file
 
-- `.claude\settings.json` (project-level, checked into repo) has been created with permissions allowing Claude to Read/Write/Edit any file under `C:\CLAUDE\Projects\Project8\`, create directories under the project, and run `python`, `jupyter`, and `pip install` commands without prompting each time.
+- `.claude\settings.json` (project-level) has been created with permissions allowing Claude to Read/Write/Edit any file under `C:\CLAUDE\Projects\Project8\`, create directories under the project, and run `python`, `jupyter`, and `pip install` commands without prompting each time. 
 
 ### How notebook execution was actually performed
 
